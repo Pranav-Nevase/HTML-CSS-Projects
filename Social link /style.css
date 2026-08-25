@@ -1,0 +1,167 @@
+/* Font family */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: rgb(22, 21, 21);
+    padding: 10px;
+    width: 100%;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+/* .regular{
+    font-weight: 400;
+}
+
+.semibold{
+    font-weight: 600;
+}
+
+.bold{
+    font-weight: 700;
+} */
+
+/*  */
+main {
+    text-align: center;
+}
+
+/* Profile Img */
+
+#Profileimg {
+    border-radius: 50%;
+    width: 88px;
+    height: 88px;
+
+}
+
+#location {
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+#name {
+    padding: 0 5px 2px 5px;
+    margin: 0 5px 4px 5px;
+    color: aliceblue;
+}
+
+p {
+    color: rgb(155, 244, 21);
+    font-weight: 500;
+    margin: 4px;
+
+}
+
+#caption {
+    padding: 5px 10px 0% 10px;
+    margin: auto;
+    color: rgb(221, 239, 255);
+    font-weight: 400;
+
+}
+
+
+/* Main Section */
+
+
+.body {
+    text-align: center;
+}
+
+
+/* For outer box */
+
+#div {
+    background-color: rgb(38, 36, 36);
+    border-radius: 3%;
+    padding: 20px;
+    width: min(100%, 380px);
+    margin: auto;
+    box-sizing: border-box;
+    
+}
+
+/* link 1 */
+.link1 {
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: rgb(65, 64, 64);
+    width: 100%;
+    padding: 14px 10px;
+    margin: auto;
+    font-weight: 600;
+        box-sizing: border-box;
+
+
+
+}
+
+/* link 2 */
+.link2 {
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: rgb(65, 64, 64);
+    width: 100%;
+    padding: 14px 10px;
+    margin: auto;
+    font-weight: 600;
+        box-sizing: border-box;
+
+}
+
+
+/* link 3 */
+.link3 {
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: rgb(65, 64, 64);
+    width: 100%;
+    padding: 14px 10px;
+    margin: auto;
+    font-weight: 600;
+        box-sizing: border-box;
+
+}
+
+/* link 4 */
+.link4 {
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: rgb(65, 64, 64);
+    width: 100%;
+    padding: 14px 10px;
+    margin: auto;
+    font-weight: 600;
+        box-sizing: border-box;
+
+}
+
+/* link 5 */
+.link5 {
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: rgb(65, 64, 64);
+    width: 100%;
+    padding: 14px 10px;
+    margin: auto;
+    font-weight: 600;
+        box-sizing: border-box;
+
+}
+
+/* Ancheor Tag */
+.links a {
+    color: aliceblue;
+    text-decoration: none;
+
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin: auto;
+
+}

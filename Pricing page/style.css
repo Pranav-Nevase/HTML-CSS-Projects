@@ -1,0 +1,49 @@
+
+/* Table */
+
+
+table thead th.id {
+
+    color: blue;
+}
+
+
+
+table thead h1.price {
+    font-size: 2rem;
+
+}
+
+table thead p {
+    font-size: .8rem;
+    font-weight: normal;
+}
+
+table tbody td.row {
+    font-weight: bolder;
+    background-color: #fae8e8;
+    padding: 1rem .5rem .5rem .5rem;
+    margin:24px 36px;
+
+}
+
+table tbody td.popular {
+    background-color: #121826;
+    padding: 1rem .5rem .5rem .5rem;
+    margin:24px 36px;
+
+}
+table tbody td#popular {
+           border-radius: 25%;
+
+
+}
+
+table thead th.popular {
+        border-radius: 25%;
+
+    background-color: #121826;
+    padding: 1rem .5rem .5rem .5rem;
+    margin:24px 36px;
+
+}
