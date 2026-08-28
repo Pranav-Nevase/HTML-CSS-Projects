@@ -1,0 +1,131 @@
+/* FOnt family */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300..700&family=Young+Serif&display=swap');
+
+
+body {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    background-color: hsl(30, 54%, 90%);
+    padding: 10px;
+    width: 100%;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+
+
+
+/* For outer box */
+
+.main {
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    padding: 28px;
+    background-color: #ffffff;
+    border-radius: 18px;
+    box-sizing: border-box;
+    display: block;
+}
+
+
+/* img */
+
+.img img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border: 1px solid transparent;
+    border-radius: 8px;
+}
+
+/* header */
+.header h2 {
+    font-family: 'Young Serif', serif;
+    font-weight: 500;
+    font-size: 2rem;
+
+
+}
+
+.para {
+    font-weight: 100;
+    font-size: 13px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+
+}
+
+/* <!-- Perpartion time !--> */
+
+.perptime {
+    background-color: rgb(255, 245, 250);
+    padding: 16px;
+    border-radius: 8px;
+    margin: auto;
+}
+
+.perptime h3 {
+    color: rgb(123, 40, 79);
+    margin: 0;
+  
+}
+
+.perptime ul {
+    margin: 8px 0;
+}
+
+.perptime li {
+    padding: 5px;
+    font-weight: 400;
+    font-size: 15px;
+    margin: 0;
+    line-height: 1.6;
+}
+
+.perptime strong {
+    font-weight: 525;
+    
+}
+
+/* <!-- Ingredients --> */
+
+.ingredients h2 {
+    color: rgb(133, 70, 50);
+    font-weight: 600;
+}
+
+.ingredients li {
+    padding: 5px;
+    font-weight: 150;
+    font-size: 15px;
+    
+
+}
+
+.ingredients ul {
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+/* instructions */
+
+.instructions h2{
+    color: rgb(133, 70, 50);
+    font-weight: 600;
+
+}
+.instructions ol{
+    margin: 0;
+    margin-bottom: 20px;
+}
+.instructions li{
+      padding: 5px;
+    font-weight: 150;
+    font-size: 15px;
+}
+
+.instructions strong{
+    font-weight: 600;
+}
