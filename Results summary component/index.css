@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;700;800&display=swap');
+
+body {
+    background-color: hsl(221, 100%, 96%);
+    font-family: 'Hanken Grotesk', sans-serif;
+    place-content: center;
+    /* Use CSS Grid for the layout */
+    display: grid;
+
+    /* This single line centers everything both vertically and horizontally */
+    place-content: center;
+
+    /* Ensures the body takes up the full height of your screen */
+    min-height: 100vh;
+
+    /* Optional: removes default browser margins */
+    margin: 0;
+
+}
+
+
+
+
+/* Main */
+
+.main {
+    border: 2px solid transparent;
+    border-radius: 18px;
+    display: flex;
+    flex: 1;
+    position: relative;
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: 10px 20px 40px hsla(224, 23%, 23%, 0.15);
+
+
+}
+
+
+.your_result {
+    background: linear-gradient(180deg, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    border-radius: 18px;
+    padding: 25px 50px 50px 50px;
+
+    display: grid;
+    flex: 1;
+    place-items: center;
+    text-align: center;
+    min-height: 220px;
+    color: hsl(0, 0%, 100%);
+
+}
+
+.your_result h2:first-child,
+.description {
+    color: hsl(241, 100%, 89%);
+    /* Light lavender */
+}
+
+.score-circle {
+    /* Creates the darker purple gradient for the circle */
+    background: linear-gradient(180deg, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    /* Turns the square into a circle */
+
+    /* Flexbox to center the text perfectly inside */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 25px 0;
+    /* Adds breathing room above and below the circle */
+}
+
+
+
+
+/* Make the score huge and remove default margins */
+.score-circle h1 {
+    font-size: 3.5rem;
+    margin: 0;
+    color: white;
+}
+
+/* Make the 'of 100' slightly faded */
+.score-circle p {
+    margin: 0;
+    color: hsl(241, 100%, 89%);
+    /* Light lavender color */
+    font-weight: 700;
+    opacity: 0.5;
+}
+
+.score span {
+    color: hsl(224, 23%, 23%);
+    opacity: 0.5;
+    /* Fades the '/ 100' part perfectly */
+    font-weight: 700;
+}
+
+.description {
+    margin: 0 auto;
+    max-width: 300px;
+    opacity: 0.8;
+}
+
+
+
+/* Summary */
+
+.summary {
+    display: grid;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding: 50px;
+
+}
+
+.summary>h2 {
+    color: hsl(224, 23%, 23%);
+}
+
+.data {
+    border-radius: 15px;
+    padding: 20px;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+
+}
+
+.title-group {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    /* Space between icon and text */
+}
+
+
+
+#Reaction {
+    background: hsl(0, 100%, 87%);
+}
+
+#Reaction h5 {
+    color: hsl(0, 100%, 67%);
+}
+
+#Memory {
+    background: hsl(39, 91%, 87%);
+}
+
+#Memory h5 {
+    color: hsl(39, 100%, 56%);
+}
+
+#Verbal {
+    background: hsl(166, 100%, 87%);
+}
+
+#Verbal h5 {
+    color: hsl(166, 100%, 37%);
+}
+
+#Visual {
+    background: hsl(234, 85%, 87%);
+}
+
+#Visual h5 {
+    color: hsl(234, 85%, 45%);
+}
+
+.score {
+    color: hsl(224, 23%, 23%);
+    /* font-weight: 800; */
+}
+
+/* Button */
+
+.button {
+    display: flex;
+    justify-content: center;
+    background-color: hsla(0, 0%, 0%, 0);
+
+
+}
+
+.button button:hover {
+    background: linear-gradient(180deg, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+
+.button button {
+    background-color: hsl(224, 23%, 23%);
+    /* Dark slate blue */
+    color: white;
+    border: none;
+    /* Removes the default gray border */
+    border-radius: 128px;
+    /* Creates the rounded pill shape */
+    padding: 18px;
+    width: 100%;
+    /* Stretches the button across the whole card */
+    font-size: 1.1rem;
+    font-weight: 700;
+    font-family: inherit;
+    /* Uses your Hanken Grotesk font */
+    cursor: pointer;
+}
+
+
+/* Mobile Respnsive  */
+
+@media(max-width:768px){
+    .main{
+        display: flex;
+        flex-direction: column;
+        max-width: 375px;
+        margin: 20px;
+    }
+    
+    .your_result {
+        border-radius: 18px; 
+        padding: 30px 40px; 
+    }
+    .summary {
+        padding: 30px;
+    }
+    .score-circle {
+        width: 140px;
+        height: 140px;
+    }
+}
