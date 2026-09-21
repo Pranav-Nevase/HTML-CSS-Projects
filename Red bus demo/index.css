@@ -1,0 +1,7 @@
+.header_img{
+    background-image: url("./assets/HomeBanner.webp");
+    background-size: cover; 
+    background-position: center;
+    height: 500px;
+    
+}
